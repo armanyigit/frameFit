@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>CFBundleDisplayName</key>
+    <string>FrameFit</string>
     <key>CFBundleExecutable</key>
     <string>reframe</string>
     <key>CFBundleIdentifier</key>
-    <string>com.armanyigit.reframe</string>
+    <string>com.armanyigit.framefit</string>
     <key>CFBundleVersion</key>
     <string>1</string>
     <key>CFBundleShortVersionString</key>
@@ -16,5 +18,9 @@
     <string>This app needs permission to save processed photos to your library.</string>
     <key>UILaunchScreen</key>
     <dict/>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
 </dict>
 </plist>
